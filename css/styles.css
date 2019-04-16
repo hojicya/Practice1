@@ -1,0 +1,118 @@
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body{
+  font-family:"Avenir Next","Hiragino Kaku Gothic ProN W3",sans-serif;
+}
+
+header{
+  height:90px;
+  background-color:#26d0c9;
+  color:#fff;
+}
+
+.header-logo{
+  font-size:36px;
+  padding:20px 40px;
+  float:left;
+}
+
+ .header-list li{
+   float:left;
+   padding:33px 20px;
+ }
+
+ .a-link{
+   color:#fff;
+   text-decoration:none;
+ }
+
+main{
+  margin:100px 80px 100px;
+}
+
+.main-head h1{
+  font-size:140px;
+}
+
+span{
+  color:#ff4a4a;
+}
+
+.main-head h2{
+  font-size:60px;
+}
+
+.main-contents{
+  margin-top:100px;
+  margin-bottom:100px;
+  height:500px;
+}
+
+.header-name{
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
+
+.content{
+  float:left;
+  margin-right:40px;
+}
+
+.contents{
+  margin-top:0;
+}
+
+.contents p{
+  font-size:24px;
+  margin-top:30px;
+}
+
+.form-part{
+  width:400px;
+  padding:20px;
+  border:1px solid #dee7ec;
+  margin-bottom:30px;
+}
+
+form p{
+  margin-bottom:10px;
+}
+
+.submit{
+  font-size:18px;
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+footer{
+  color:#fff;
+  background-color:#2f5167;
+  height:120px;
+  padding:40px;
+}
+
+.footer-logo{
+  font-size:32px;
+  float:left;
+}
+
+.footer-list {
+  float:right;
+}
+
+footer li{
+  margin-bottom:20px;
+}
